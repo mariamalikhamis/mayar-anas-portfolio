@@ -196,7 +196,7 @@ export const projects: Project[] = [
           title: 'A strong site without the infrastructure',
           text: 'The site has a direct waterfront and sits near major ports and shipping lanes, but it lacks specialised marine infrastructure and enough room to operate. The existing elements were a main workshop, a service building, the entrance, the waterfront and the boundary wall.',
           shots: [
-            { src: '/work/shipyard/existing.webp', alt: 'Aerial view of the existing site with numbered existing elements: workshop, service building, entrance, waterfront and boundary wall', w: 1680, h: 991, wide: true },
+            { src: '/work/shipyard/existing.webp', alt: 'Existing situation board: current challenges and existing elements over an aerial view of the site', w: 1680, h: 991, wide: true },
           ],
           cards: [
             { title: 'Limited operating capacity', body: 'Not enough space to build and repair larger vessels.' },
@@ -239,7 +239,7 @@ export const projects: Project[] = [
           eyebrow: '04 · Zoning',
           title: 'How the yard works',
           shots: [
-            { src: '/work/shipyard/zoning.webp', alt: 'Functional zoning plan from above: workshop, services, administration, quay, launch area, crane track, storage and security gates', w: 1680, h: 1260, caption: 'Functional zoning' },
+            { src: '/work/shipyard/zoning.webp', alt: 'Functional zoning board: top view of the yard with the eight numbered zones and gates', w: 1680, h: 1260, caption: 'Functional zoning' },
             { src: '/work/shipyard/masterplan.webp', alt: 'Master plan render with numbered elements over the shipyard and its new quay', w: 1540, h: 812, caption: 'Master plan' },
           ],
         },
