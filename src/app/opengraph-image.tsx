@@ -8,15 +8,15 @@ export const alt = 'Mayar Anas · Architect';
 export default function OG() {
   return new ImageResponse(
     (
-      <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: 80, background: '#F3F1EC', color: '#1A1A18', fontFamily: 'sans-serif' }}>
-        <div style={{ display: 'flex', fontSize: 28, color: '#8C4A2F', fontWeight: 600 }}>Architect · Urban planning</div>
+      <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: 80, background: '#F1F4F8', color: '#131820', fontFamily: 'sans-serif' }}>
+        <div style={{ display: 'flex', fontSize: 28, color: '#2251C2', fontWeight: 600 }}>Architect · Urban planning</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
           <div style={{ fontSize: 104, fontWeight: 700, letterSpacing: -3 }}>Mayar Anas</div>
-          <div style={{ fontSize: 44, color: '#5F5E58' }}>From the city scale to the last detail.</div>
+          <div style={{ fontSize: 44, color: '#5A6474' }}>From the city scale to the last detail.</div>
         </div>
         <div style={{ display: 'flex', gap: 14, fontSize: 26 }}>
           {['Urban', 'Residential', 'Industrial', 'Marine', 'Healthcare'].map((x) => (
-            <div key={x} style={{ padding: '10px 22px', borderRadius: 999, background: '#EFE3DC', color: '#7A3F27' }}>
+            <div key={x} style={{ padding: '10px 22px', borderRadius: 999, background: '#E2EAFA', color: '#1A3F9A' }}>
               {x}
             </div>
           ))}
