@@ -75,7 +75,7 @@ export const projects: Project[] = [
     desc: 'Reviving a historic port district around textile and fashion industry, with a new waterfront.',
     cover: '/covers/minet.webp',
     coverAlt: 'Render of a public plaza in front of restored red-brick warehouses in Minet El Basal',
-    coverSize: [1867, 1015],
+    coverSize: [1867, 998],
     page: {
       lead: 'Revitalizing the historic district of Minet El Basal in Alexandria’s Western Harbour around textile and fashion industry, with a new waterfront for the city.',
       tags: ['Urban regeneration', 'Waterfront design', 'Heritage', 'Textile & fashion industry'],
@@ -94,8 +94,8 @@ export const projects: Project[] = [
           chips: ['Unknown Soldier Square', 'Al-Tahrir Square', 'Al-Bahrya Street', 'Abdel Moneim Street', 'Abdelal Street', 'Al-Max', 'Al-Bitash', 'Al-Nasr Street'],
           layout: 'split',
           shots: [
-            { src: '/work/minet/location.webp', alt: 'Site location maps, from the world map down to the Western and Eastern Harbours of Alexandria', w: 2000, h: 361 },
-            { src: '/work/minet/access.webp', alt: 'Site accessibility diagram showing public and private transport routes, tram line, heavy vehicles and traffic jams', w: 2000, h: 698 },
+            { src: '/work/minet/location.webp', alt: 'Site location maps, from the world map down to the Western and Eastern Harbours of Alexandria', w: 1992, h: 358 },
+            { src: '/work/minet/access.webp', alt: 'Site accessibility diagram showing public and private transport routes, tram line, heavy vehicles and traffic jams', w: 2000, h: 692 },
           ],
         },
         {
@@ -103,9 +103,9 @@ export const projects: Project[] = [
           title: 'Reading the site',
           text: 'Sustainability runs through the plan: reducing energy use in line with LEED certification and applying the UN Sustainable Development Goals.',
           shots: [
-            { src: '/work/minet/analysis.webp', alt: 'Site analysis: photos of existing warehouses and maps of building condition, height, use and solid-void', w: 2000, h: 1119, caption: 'Site analysis: most of the buildings are warehouses', wide: true },
-            { src: '/work/minet/swot.webp', alt: 'SWOT analysis of strengths, weaknesses, opportunities and threats', w: 2000, h: 311, caption: 'SWOT analysis' },
-            { src: '/work/minet/sustain.webp', alt: 'Sustainability strategies: LEED credit categories, electric carts, solar lighting, recycling and solar-covered parking', w: 2000, h: 885, caption: 'Sustainability: LEED and SDGs' },
+            { src: '/work/minet/analysis.webp', alt: 'Site analysis: photos of existing warehouses and maps of building condition, height, use and solid-void', w: 1965, h: 1114, caption: 'Site analysis: most of the buildings are warehouses', wide: true },
+            { src: '/work/minet/swot.webp', alt: 'SWOT analysis of strengths, weaknesses, opportunities and threats', w: 2000, h: 242, caption: 'SWOT analysis' },
+            { src: '/work/minet/sustain.webp', alt: 'Sustainability strategies: LEED credit categories, electric carts, solar lighting, recycling and solar-covered parking', w: 1975, h: 877, caption: 'Sustainability: LEED and SDGs' },
           ],
         },
         {
@@ -113,8 +113,8 @@ export const projects: Project[] = [
           title: 'Reviving the heritage area by reusing its buildings in a way that attracts people',
           text: 'The link between the cotton heritage buildings, the commercial port and the sea led to a fashion and textile program that reflects the area’s past and its foreign trade. Two main approaches, one from the heritage buildings and one from the tourist station, draw visitors in, while open spaces serve the people who live there.',
           shots: [
-            { src: '/work/minet/idea.webp', alt: 'Idea diagram linking fashion and textile, heritage industry, the waterfront port and tourism', w: 1663, h: 952, caption: 'Idea' },
-            { src: '/work/minet/concept.webp', alt: 'Concept and strategy diagram with two main approaches, gathering plazas, waterfront public realm and network connections', w: 2000, h: 1484, caption: 'Concept and strategy' },
+            { src: '/work/minet/idea.webp', alt: 'Idea diagram linking fashion and textile, heritage industry, the waterfront port and tourism', w: 1561, h: 910, caption: 'Idea' },
+            { src: '/work/minet/concept.webp', alt: 'Concept and strategy diagram with two main approaches, gathering plazas, waterfront public realm and network connections', w: 1992, h: 1344, caption: 'Concept and strategy' },
           ],
         },
         {
@@ -122,8 +122,8 @@ export const projects: Project[] = [
           title: 'The plan',
           shots: [
             { src: '/work/minet/masterplan.webp', alt: 'Master plan of the district and its waterfront basin', w: 2000, h: 1888, wide: true },
-            { src: '/work/minet/zoning.webp', alt: 'Program and zoning plan with a table of zones and areas, total 311 acres', w: 2000, h: 997, caption: 'Program and zoning · total area 311 acres' },
-            { src: '/work/minet/action.webp', alt: 'Action area plan with pedestrian routes between the blocks', w: 2000, h: 2102, caption: 'Action area' },
+            { src: '/work/minet/zoning.webp', alt: 'Program and zoning plan with a table of zones and areas, total 311 acres', w: 1985, h: 836, caption: 'Program and zoning · total area 311 acres' },
+            { src: '/work/minet/action.webp', alt: 'Action area plan with pedestrian routes between the blocks', w: 1955, h: 2102, caption: 'Action area' },
           ],
         },
         {
@@ -131,17 +131,17 @@ export const projects: Project[] = [
           title: 'Keeping the street’s memory',
           text: 'Elevations compare the district’s streets as they are today with the proposed design.',
           shots: [
-            { src: '/work/minet/elev1old.webp', alt: 'Existing street elevation 1 with Makbas Misr, Makbas El Nile and Alexandria Bank', w: 2000, h: 512, caption: 'Elevation 1, existing' },
-            { src: '/work/minet/elev1new.webp', alt: 'Proposed street elevation 1', w: 2000, h: 384, caption: 'Elevation 1, proposed' },
-            { src: '/work/minet/elev2old.webp', alt: 'Existing street elevation 2 with Makbas El Tareikh and Makbas 45', w: 2000, h: 455, caption: 'Elevation 2, existing' },
-            { src: '/work/minet/elev2new.webp', alt: 'Proposed street elevation 2', w: 2000, h: 426, caption: 'Elevation 2, proposed' },
+            { src: '/work/minet/elev1old.webp', alt: 'Existing street elevation 1 with Makbas Misr, Makbas El Nile and Alexandria Bank', w: 2000, h: 497, caption: 'Elevation 1, existing' },
+            { src: '/work/minet/elev1new.webp', alt: 'Proposed street elevation 1', w: 1949, h: 312, caption: 'Elevation 1, proposed' },
+            { src: '/work/minet/elev2old.webp', alt: 'Existing street elevation 2 with Makbas El Tareikh and Makbas 45', w: 2000, h: 449, caption: 'Elevation 2, existing' },
+            { src: '/work/minet/elev2new.webp', alt: 'Proposed street elevation 2', w: 1987, h: 308, caption: 'Elevation 2, proposed' },
           ],
         },
         {
           eyebrow: '06 · In 3D',
           title: 'Walking through it',
           shots: [
-            { src: '/work/minet/section3d.webp', alt: '3D section through the restored warehouses and the central open space', w: 2000, h: 395, caption: '3D section', wide: true },
+            { src: '/work/minet/section3d.webp', alt: '3D section through the restored warehouses and the central open space', w: 1999, h: 388, caption: '3D section', wide: true },
             { src: '/work/minet/approach.webp', alt: 'Aerial render of the main approach: a landscaped path leading between the warehouses', w: 2000, h: 818, caption: 'The main approach', ratio: '3 / 2' },
             { src: '/work/minet/shot1.webp', alt: 'Render of shaded picnic tables on a public plaza', w: 1512, h: 1015, caption: 'Public plaza', ratio: '3 / 2' },
             { src: '/work/minet/shot3.webp', alt: 'Render of a green lawn with a pedestrian bridge and the clock tower behind', w: 1867, h: 826, caption: 'The green spine and the clock tower', ratio: '21 / 9', wide: true },
@@ -209,7 +209,7 @@ export const projects: Project[] = [
           title: 'Eleven moves, on land and at sea',
           text: 'The client’s brief set the spaces each zone needed. The plan answers it with six moves on land and five on the waterfront.',
           shots: [
-            { src: '/work/shipyard/elements.webp', alt: 'Development plan over an aerial photo with the eleven numbered elements', w: 1820, h: 929, wide: true },
+            { src: '/work/shipyard/elements.webp', alt: 'Development plan over an aerial photo with the eleven numbered elements', w: 1820, h: 918, wide: true },
           ],
           lists: [
             {
@@ -358,8 +358,8 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Existing site analysis with the current buildings, berths and problem areas marked",
-              w: 1680,
-              h: 1071,
+              w: 1606,
+              h: 1067,
               wide: true,
               src: "/work/suez-shipyard/existing.webp",
             },
@@ -411,7 +411,7 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Proposals board: the seven development moves drawn over the site plan",
-              w: 1680,
+              w: 1632,
               h: 1071,
               wide: true,
               src: "/work/suez-shipyard/proposals.webp",
@@ -448,13 +448,13 @@ export const projects: Project[] = [
             {
               alt: "Dry dock board with the new gantry crane and control unit",
               w: 1680,
-              h: 1071,
+              h: 1058,
               caption: "Dry dock",
               src: "/work/suez-shipyard/drydock.webp",
             },
             {
               alt: "Ship-lift expansion board comparing the existing and proposed platforms",
-              w: 1680,
+              w: 1645,
               h: 1071,
               caption: "Ship-lift expansion",
               src: "/work/suez-shipyard/shiplift.webp",
@@ -534,15 +534,15 @@ export const projects: Project[] = [
             },
             {
               alt: "Axonometric of the Administration Building showing its zones",
-              w: 1680,
-              h: 1071,
+              w: 1633,
+              h: 1066,
               caption: "Zoning axonometric",
               src: "/work/suez-shipyard/admin-axo.webp",
             },
             {
               alt: "Administration Building floor plan with the interior zones",
-              w: 1680,
-              h: 1071,
+              w: 1593,
+              h: 1066,
               caption: "Space planning",
               src: "/work/suez-shipyard/admin-plan.webp",
             },
@@ -590,8 +590,8 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Wayfinding and signage board with the colour palette",
-              w: 1680,
-              h: 1071,
+              w: 1572,
+              h: 1066,
               src: "/work/suez-shipyard/wayfinding.webp",
             },
           ],
@@ -708,7 +708,7 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Strategic location board: the site on South 90th Street with its surrounding streets, bus stop and pedestrian bridge",
-              w: 1680,
+              w: 1612,
               h: 1050,
               src: "/work/rare-air-open-mall/location.webp",
             },
@@ -722,8 +722,8 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Project vision board with the programme icons, colour palette, material selection and an axonometric of the scheme",
-              w: 1680,
-              h: 1050,
+              w: 1641,
+              h: 1029,
               wide: true,
               src: "/work/rare-air-open-mall/vision.webp",
             },
@@ -737,8 +737,8 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Form development diagrams from site response to the final composition",
-              w: 1680,
-              h: 1050,
+              w: 1608,
+              h: 1029,
               caption: "From mass to composition",
               src: "/work/rare-air-open-mall/form.webp",
             },
@@ -759,8 +759,8 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Site plan with the built footprint, landscape areas, entrance and circulation",
-              w: 1680,
-              h: 1050,
+              w: 1615,
+              h: 1029,
               src: "/work/rare-air-open-mall/site-plan.webp",
             },
           ],
@@ -790,28 +790,28 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Ground floor plan with retail and F&B units around the central courtyard",
-              w: 1680,
-              h: 1050,
+              w: 1602,
+              h: 1032,
               caption: "Ground floor",
               src: "/work/rare-air-open-mall/ground-floor.webp",
             },
             {
               alt: "First floor plan continuing the retail loop",
-              w: 1680,
+              w: 1635,
               h: 1050,
               caption: "First floor",
               src: "/work/rare-air-open-mall/first-floor.webp",
             },
             {
               alt: "Second floor plan with setbacks and terraces",
-              w: 1680,
+              w: 1640,
               h: 1050,
               caption: "Second floor",
               src: "/work/rare-air-open-mall/second-floor.webp",
             },
             {
               alt: "Roof plan with terraces, seating and pergolas",
-              w: 1680,
+              w: 1640,
               h: 1050,
               caption: "Roof",
               src: "/work/rare-air-open-mall/roof.webp",
@@ -852,14 +852,14 @@ export const projects: Project[] = [
             {
               alt: "Front elevation with the material palette and key plan",
               w: 1680,
-              h: 1050,
+              h: 1029,
               wide: true,
               src: "/work/rare-air-open-mall/front-elevation.webp",
             },
             {
               alt: "Architectural elements board with the pergola, green edge, arches, railing, vertical fins and storefront frame",
               w: 1680,
-              h: 1050,
+              h: 1029,
               wide: true,
               src: "/work/rare-air-open-mall/elements.webp",
             },
@@ -904,7 +904,7 @@ export const projects: Project[] = [
             {
               alt: "Signage and identity board: main mall identity, tenant storefront signage and architectural signage",
               w: 1680,
-              h: 1050,
+              h: 1029,
               src: "/work/rare-air-open-mall/signage.webp",
             },
           ],
@@ -1077,7 +1077,7 @@ export const projects: Project[] = [
             {
               alt: "Masterplan zoning over the Sharm El Sheikh coastline and mountains",
               w: 1680,
-              h: 1021,
+              h: 984,
               src: "/work/marineera-waterfront-retail/zoning.webp",
             },
           ],
@@ -1103,14 +1103,14 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Current situation board with the existing harbour and site photos",
-              w: 1680,
+              w: 1637,
               h: 1021,
               caption: "The existing harbour",
               src: "/work/marineera-waterfront-retail/current.webp",
             },
             {
               alt: "Current and proposed function compared side by side",
-              w: 1680,
+              w: 1646,
               h: 1021,
               caption: "Current vs. proposed",
               src: "/work/marineera-waterfront-retail/current-proposed.webp",
@@ -1132,7 +1132,7 @@ export const projects: Project[] = [
             },
             {
               alt: "Site requirements: the retail and public realm, boutique hotel and marina with their dimensions",
-              w: 1680,
+              w: 1583,
               h: 1021,
               caption: "Zone areas",
               src: "/work/marineera-waterfront-retail/requirements.webp",
@@ -1167,15 +1167,15 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Ground floor plan of the retail shops with courtyards and landscaped paths",
-              w: 1160,
+              w: 1116,
               h: 945,
               caption: "Ground floor plan",
               src: "/work/marineera-waterfront-retail/ground-floor.webp",
             },
             {
               alt: "Project module: the two-level unit with shops on the ground floor and cafés above",
-              w: 1680,
-              h: 1021,
+              w: 1633,
+              h: 1013,
               caption: "The retail module",
               src: "/work/marineera-waterfront-retail/module.webp",
             },
@@ -1188,15 +1188,15 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Project gate board with arrival, digital entrance and the main pedestrian axis",
-              w: 1680,
-              h: 1021,
+              w: 1602,
+              h: 1012,
               caption: "The gate",
               src: "/work/marineera-waterfront-retail/gates.webp",
             },
             {
               alt: "Parking board with surface and underground parking and the flow strategy",
-              w: 1680,
-              h: 1021,
+              w: 1667,
+              h: 1012,
               caption: "Parking",
               src: "/work/marineera-waterfront-retail/parking.webp",
             },
@@ -1210,22 +1210,22 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Outdoor seating board with a shaded seating render and a sun-path section",
-              w: 1680,
-              h: 1021,
+              w: 1639,
+              h: 1012,
               caption: "Outdoor seating",
               src: "/work/marineera-waterfront-retail/seating.webp",
             },
             {
               alt: "Services board with service routes and underground infrastructure",
-              w: 1680,
-              h: 1021,
+              w: 1626,
+              h: 1012,
               caption: "Services",
               src: "/work/marineera-waterfront-retail/services.webp",
             },
             {
               alt: "Signage board with the wayfinding totem at the retail entrance",
-              w: 1680,
-              h: 1021,
+              w: 1644,
+              h: 1012,
               caption: "Signage",
               wide: true,
               src: "/work/marineera-waterfront-retail/signage.webp",
@@ -1239,16 +1239,16 @@ export const projects: Project[] = [
           shots: [
             {
               alt: "Gift shop interior with arched niches, pottery shelves and a stone display table",
-              w: 1176,
-              h: 888,
+              w: 1164,
+              h: 884,
               caption: "Gift shop",
               ratio: "4 / 3",
               src: "/work/marineera-waterfront-retail/gift-shop.webp",
             },
             {
               alt: "Café interior with a timber counter and arched windows",
-              w: 1176,
-              h: 888,
+              w: 1169,
+              h: 882,
               caption: "Café",
               ratio: "4 / 3",
               src: "/work/marineera-waterfront-retail/cafe.webp",

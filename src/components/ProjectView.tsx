@@ -1,19 +1,14 @@
+import type React from 'react';
 import type { Project, Shot } from '@/content/projects';
 import { site } from '@/content/site';
 
-function Figure({ s, big }: { s: Shot; big?: boolean }) {
+function Figure({ s }: { s: Shot }) {
+  // Justified layout: each figure grows in proportion to its aspect ratio,
+  // so images in the same row share one height and are never cropped or letterboxed.
+  const r = s.w / s.h;
   return (
-    <figure className={s.wide ? 'pv-fig is-wide' : 'pv-fig'}>
-      <img
-        src={s.src}
-        alt={s.alt}
-        width={s.w}
-        height={s.h}
-        loading="lazy"
-        decoding="async"
-        className={s.ratio ? 'is-cropped' : big ? 'is-big' : undefined}
-        style={s.ratio ? { aspectRatio: s.ratio } : undefined}
-      />
+    <figure className={s.wide ? 'pv-fig is-wide' : 'pv-fig'} style={{ ['--r' as string]: r.toFixed(4) } as React.CSSProperties}>
+      <img src={s.src} alt={s.alt} width={s.w} height={s.h} loading="lazy" decoding="async" />
       {s.caption ? <figcaption>{s.caption}</figcaption> : null}
     </figure>
   );
@@ -87,7 +82,7 @@ export default function ProjectView({ project, next }: { project: Project; next?
         const shots = s.shots?.length ? (
           <div className={s.shots.length === 1 ? 'pv-grid is-single' : 'pv-grid'}>
             {s.shots.map((sh) => (
-              <Figure key={sh.src} s={sh} big={s.shots!.length === 1} />
+              <Figure key={sh.src} s={sh} />
             ))}
           </div>
         ) : null;

@@ -4,7 +4,7 @@ export default function ProjectCard({ project, eager, ctaLabel }: { project: Pro
   const href = project.page ? `/work/${project.slug}` : undefined;
   const inner = (
     <>
-      <div className="card-media">
+      <div className="card-media" style={{ aspectRatio: `${project.coverSize[0]} / ${project.coverSize[1]}` }}>
         <img src={project.cover} alt={project.coverAlt} width={project.coverSize[0]} height={project.coverSize[1]} loading={eager ? 'eager' : 'lazy'} decoding="async" />
       </div>
       <div className="card-body">

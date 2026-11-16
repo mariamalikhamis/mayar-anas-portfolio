@@ -1163,3 +1163,16 @@ html:not([dir='rtl']) .tl-title { font-size: 20px; }
 .pv-next svg { transition: transform .35s var(--ease-out); }
 .pv-next:hover svg { transform: translateX(6px); }
 .pv-next:hover .pv-next-title { color: var(--accent); }
+
+/* ── Images: never cropped, never letterboxed ─────────────────────────────
+   Rows are justified: every item grows in proportion to its aspect ratio (--r),
+   so items sharing a row end up exactly the same height at their natural shape. */
+.works { display: flex; flex-wrap: wrap; gap: 40px 24px; align-items: flex-start; }
+.work-item { flex: var(--r) 1 calc(var(--r) * 200px); min-width: 0; }
+.card-media img { object-fit: fill; }
+.pv-cover { aspect-ratio: auto; object-fit: fill; }
+.pv-grid { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
+.pv-fig { flex: var(--r) 1 calc(var(--r) * 280px); min-width: 0; }
+.pv-fig.is-wide { flex-basis: 100%; }
+.pv-section.is-split .pv-fig { flex-basis: 100%; }
+@media (max-width: 699px) { .pv-fig, .work-item { flex-basis: 100%; } }

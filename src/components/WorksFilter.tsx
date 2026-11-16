@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import type React from 'react';
 import { categories, type Category, type Project } from '@/content/projects';
 import ProjectCard from './ProjectCard';
 
@@ -29,7 +30,7 @@ export default function WorksFilter({ projects, labels }: { projects: Project[];
       </div>
       <div className="works" key={filter}>
         {shown.map((p, i) => (
-          <div key={p.slug} className="work-item" style={{ animationDelay: `${Math.min(i, 6) * 50}ms` }}>
+          <div key={p.slug} className="work-item" style={{ animationDelay: `${Math.min(i, 6) * 50}ms`, ['--r' as string]: (p.coverSize[0] / p.coverSize[1]).toFixed(4) } as React.CSSProperties}>
             <ProjectCard project={p} eager={i < 2} ctaLabel={labels.view} />
           </div>
         ))}
