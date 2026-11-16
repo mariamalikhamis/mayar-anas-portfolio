@@ -47,7 +47,7 @@ export const site = {
 
   worksEyebrow: 'Selected work',
   worksTitle: 'Projects across every scale',
-  worksSub: 'Urban, residential, industrial, healthcare and public buildings, in Alexandria and beyond.',
+  worksSub: 'Urban, residential, commercial, industrial, healthcare and public buildings, in Alexandria and beyond.',
   filterAria: 'Filter projects',
   filterAll: 'All',
   viewProject: 'View project',

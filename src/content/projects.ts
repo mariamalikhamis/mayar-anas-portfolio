@@ -7,6 +7,7 @@
 export const categories = {
   urban: 'Urban Planning & Development',
   res: 'Residential Architecture',
+  com: 'Commercial Architecture',
   ind: 'Industrial Architecture',
   marine: 'Marine & Shipyard Facilities',
   health: 'Healthcare Architecture',
@@ -650,6 +651,374 @@ export const projects: Project[] = [
         {
           value: "+135%",
           label: "Internal operating efficiency",
+        },
+      ],
+    },
+  },
+  {
+    slug: "rare-air-open-mall",
+    cat: "com",
+    type: "Commercial",
+    tags: ["South 90th Street, New Cairo", "4,392 m²", "Le.Jardin"],
+    title: "Rare & Air Open Mall",
+    desc: "An open-air retail destination on South 90th Street: shops and cafés around landscaped courtyards and rooftop terraces. I worked on design development, the full 3D model, landscape, interior space planning and the architectural layout.",
+    cover: "/covers/rare-air-open-mall.webp",
+    coverAlt: "Aerial dusk render of Rare & Air open mall: stone buildings with green terraces around a central courtyard, beside a pedestrian bridge",
+    coverSize: [
+      1680,
+      942,
+    ],
+    page: {
+      lead: "Turning a corner plot in New Cairo into an open-air retail destination: walkable streets, landscaped courtyards, active storefronts and rooftop terraces, built from warm stone and timber shade.",
+      tags: ["Commercial", "Retail & F&B", "Landscape", "Schematic design"],
+      facts: [
+        {
+          label: "Location",
+          value: "South 90th Street, New Cairo",
+        },
+        {
+          label: "Type",
+          value: "Open-air mall",
+        },
+        {
+          label: "Stage",
+          value: "Schematic design",
+        },
+        {
+          label: "Site area",
+          value: "4,392 m²",
+        },
+        {
+          label: "Office",
+          value: "Le.Jardin",
+        },
+      ],
+      role: {
+        title: "Design development, 3D, landscape and layout",
+        text: "I was actively involved in the overall design development of the project, including the complete 3D modeling, landscape design, and spatial planning and organization of interior spaces. My contribution also included developing the architectural layout, coordinating column positions, and ensuring a well-integrated and functional design.",
+        chips: ["Design development", "Full 3D model", "Landscape", "Interior space planning", "Architectural layout", "Column coordination"],
+      },
+      sections: [
+        {
+          eyebrow: "01 · The site",
+          title: "Between a busy corridor and a quiet neighbourhood",
+          text: "The plot sits on South 90th Street, between the commercial energy of the corridor and the calmer residential streets behind it. It faces a major intersection, a bus stop and a pedestrian bridge, so it is easy to see and easy to reach.",
+          chips: ["South 90th Street", "Omar Ibn Abdel Aziz Street", "El Sheikh Sayed Tantawy Street"],
+          layout: "split",
+          shots: [
+            {
+              alt: "Strategic location board: the site on South 90th Street with its surrounding streets, bus stop and pedestrian bridge",
+              w: 1680,
+              h: 1050,
+              src: "/work/rare-air-open-mall/location.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "02 · The vision",
+          title: "A place to walk, shop and stay",
+          text: "Instead of a closed mall, the brief became an open-air destination: retail units, cafés and restaurants, plazas for gathering and events, and greenery throughout. The identity is refined and timeless, built from natural materials, layered light, landscape and water.",
+          chips: ["Retail", "F&B", "Social spaces", "Landscape", "Crafted character"],
+          shots: [
+            {
+              alt: "Project vision board with the programme icons, colour palette, material selection and an axonometric of the scheme",
+              w: 1680,
+              h: 1050,
+              wide: true,
+              src: "/work/rare-air-open-mall/vision.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "03 · Form development",
+          title: "Carving a human-scale block",
+          text: "The mass starts from the site edges, then a central void is carved out for the pedestrian heart. The block is broken into smaller volumes of different heights, then layered with terraces, pergolas and screens for shade and depth.",
+          chips: ["Site response", "Central void", "Mass fragmentation", "Architectural layering", "Final composition"],
+          shots: [
+            {
+              alt: "Form development diagrams from site response to the final composition",
+              w: 1680,
+              h: 1050,
+              caption: "From mass to composition",
+              src: "/work/rare-air-open-mall/form.webp",
+            },
+            {
+              alt: "Aerial render of the open mall from above the pedestrian bridge",
+              w: 1680,
+              h: 878,
+              caption: "The final composition",
+              src: "/work/rare-air-open-mall/aerial-plaza.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "04 · Site plan",
+          title: "65% open space",
+          text: "Only 1,536 m² of the site is built footprint. The other 2,856 m² is landscape and seating. A main entrance leads in from the street, service routes link shops, cafés and outdoor spaces, and vertical circulation connects the entrance straight to the central plaza.",
+          layout: "split",
+          shots: [
+            {
+              alt: "Site plan with the built footprint, landscape areas, entrance and circulation",
+              w: 1680,
+              h: 1050,
+              src: "/work/rare-air-open-mall/site-plan.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "05 · Floor by floor",
+          title: "A retail loop around one courtyard",
+          text: "Every floor wraps around the same open courtyard, so shoppers always see the activity below. Terraces, bridges and stairs tie the levels together, and the roof becomes a destination of its own.",
+          cards: [
+            {
+              title: "Ground floor",
+              body: "1,519 m² · 20 units of 35–90 m², with continuous active frontages.",
+            },
+            {
+              title: "First floor",
+              body: "1,269 m² · 20 units of 35–90 m², with terraces and bridges.",
+            },
+            {
+              title: "Second floor",
+              body: "1,269 m² · 7 units of 40–65 m², stepped back around the void.",
+            },
+            {
+              title: "Roof",
+              body: "1,100 m² · 7 rooftop terraces for dining and gathering.",
+            },
+          ],
+          shots: [
+            {
+              alt: "Ground floor plan with retail and F&B units around the central courtyard",
+              w: 1680,
+              h: 1050,
+              caption: "Ground floor",
+              src: "/work/rare-air-open-mall/ground-floor.webp",
+            },
+            {
+              alt: "First floor plan continuing the retail loop",
+              w: 1680,
+              h: 1050,
+              caption: "First floor",
+              src: "/work/rare-air-open-mall/first-floor.webp",
+            },
+            {
+              alt: "Second floor plan with setbacks and terraces",
+              w: 1680,
+              h: 1050,
+              caption: "Second floor",
+              src: "/work/rare-air-open-mall/second-floor.webp",
+            },
+            {
+              alt: "Roof plan with terraces, seating and pergolas",
+              w: 1680,
+              h: 1050,
+              caption: "Roof",
+              src: "/work/rare-air-open-mall/roof.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "06 · Facade & details",
+          title: "Stone, timber and deep reveals",
+          text: "Limestone cladding, bronze metal, wood-look pergolas and greenery give the facades a warm, timeless identity. A small set of repeated elements keeps the whole mall consistent.",
+          cards: [
+            {
+              title: "Rooftop pergola",
+              body: "Steel with a timber finish, shading the terraces.",
+            },
+            {
+              title: "Green rooftop edge",
+              body: "Planters with cascading greenery to soften the mass.",
+            },
+            {
+              title: "Arches",
+              body: "A stone-clad signature entrance with backlit signage.",
+            },
+            {
+              title: "Railing",
+              body: "Perforated dark metal with integrated planters.",
+            },
+            {
+              title: "Vertical fins",
+              body: "Recessed fins with warm light for rhythm and depth.",
+            },
+            {
+              title: "Storefront frame",
+              body: "Recessed dark-metal frames with louvres.",
+            },
+          ],
+          shots: [
+            {
+              alt: "Front elevation with the material palette and key plan",
+              w: 1680,
+              h: 1050,
+              wide: true,
+              src: "/work/rare-air-open-mall/front-elevation.webp",
+            },
+            {
+              alt: "Architectural elements board with the pergola, green edge, arches, railing, vertical fins and storefront frame",
+              w: 1680,
+              h: 1050,
+              wide: true,
+              src: "/work/rare-air-open-mall/elements.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "07 · Landscape",
+          title: "A plaza built around water",
+          text: "A central linear fountain is the focal point, bringing movement, sound and a cooling effect. Seating sits around it and along the storefronts without blocking the main routes, raised planters with palms define the spaces, and low-level lighting keeps the plaza welcoming at night.",
+          chips: ["Water feature", "Seating areas", "Greenery & planters", "Landscape lighting"],
+          shots: [
+            {
+              alt: "The central plaza with the fountain, café seating and the arched pergola gateway",
+              w: 1680,
+              h: 678,
+              ratio: "21 / 9",
+              wide: true,
+              src: "/work/rare-air-open-mall/plaza-arch.webp",
+            },
+            {
+              alt: "Fountain and café seating in front of the storefronts",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/fountain.webp",
+            },
+            {
+              alt: "The courtyard at dusk with seating around the water feature",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/court-dusk.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "08 · Signage & shade",
+          title: "One language for every brand",
+          text: "Warm stone and charcoal metal form the base, with white lettering and restrained warm light. A main mall identity, a repeated black fascia for tenant signs, and timber pergolas with compact awnings for shade.",
+          layout: "split",
+          shots: [
+            {
+              alt: "Signage and identity board: main mall identity, tenant storefront signage and architectural signage",
+              w: 1680,
+              h: 1050,
+              src: "/work/rare-air-open-mall/signage.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "09 · Inside the mall",
+          title: "Courtyards, terraces and storefronts",
+          shots: [
+            {
+              alt: "Arched gateway with a pergola, storefronts and café seating",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/arches.webp",
+            },
+            {
+              alt: "Stepped courtyard with terraces and fountains",
+              w: 1680,
+              h: 733,
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/courtyard-steps.webp",
+            },
+            {
+              alt: "Plaza in front of the stone tower with outdoor dining",
+              w: 1680,
+              h: 664,
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/tower-plaza.webp",
+            },
+            {
+              alt: "Layered terraces above the courtyard dining area",
+              w: 1680,
+              h: 554,
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/terraces.webp",
+            },
+            {
+              alt: "Inner street toward the tower with shops and seating",
+              w: 1680,
+              h: 942,
+              ratio: "21 / 9",
+              wide: true,
+              src: "/work/rare-air-open-mall/gate-street.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "10 · From the street",
+          title: "Seen from South 90th",
+          shots: [
+            {
+              alt: "The mall from South 90th Street at dusk",
+              w: 1680,
+              h: 942,
+              wide: true,
+              src: "/work/rare-air-open-mall/street-dusk.webp",
+            },
+            {
+              alt: "The main entrance with the mall signage",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/street-entrance.webp",
+            },
+            {
+              alt: "The corner entrance under the black arch at sunset",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/corner-dusk.webp",
+            },
+            {
+              alt: "Storefronts and the staircase up to the upper levels",
+              w: 1680,
+              h: 578,
+              caption: "Storefronts and stairs",
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/storefronts.webp",
+            },
+            {
+              alt: "The mall at night from the street",
+              w: 1680,
+              h: 942,
+              caption: "At night",
+              ratio: "3 / 2",
+              src: "/work/rare-air-open-mall/street-night.webp",
+            },
+            {
+              alt: "Aerial night render of the courtyard and rooftop terraces",
+              w: 1680,
+              h: 942,
+              ratio: "21 / 9",
+              wide: true,
+              src: "/work/rare-air-open-mall/aerial-night.webp",
+            },
+          ],
+        },
+      ],
+      numbers: [
+        {
+          value: "4,392 m²",
+          label: "Site area",
+        },
+        {
+          value: "47",
+          label: "Retail & F&B units",
+        },
+        {
+          value: "65%",
+          label: "Landscape and seating",
+        },
+        {
+          value: "7",
+          label: "Rooftop terraces",
         },
       ],
     },
