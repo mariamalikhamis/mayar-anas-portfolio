@@ -279,6 +279,382 @@ export const projects: Project[] = [
     },
   },
   {
+    slug: "suez-shipyard",
+    cat: "marine",
+    type: "Marine & shipyard",
+    tags: ["Port Tawfeek, Suez", "68,000 m²", "Le.Jardin"],
+    title: "Suez Shipyard",
+    desc: "Reorganising the Suez Canal shipyard at Port Tawfeek: a larger ship-lift, connected workshops and a new administration building. I modelled every building in the master plan, designed the landscape and the Administration Building, and worked on parts of the rendering.",
+    cover: "/covers/suez-shipyard.webp",
+    coverAlt: "Aerial render of the Suez Shipyard on the canal at Port Tawfeek: ships on the ship-lift platforms beside the workshops",
+    coverSize: [
+      1680,
+      942,
+    ],
+    page: {
+      lead: "Upgrading the Suez Canal shipyard at Port Tawfeek: a tripled ship-lift, workshops organised as one production line, a clear road network and a new Administration & Technical Supervision Building.",
+      tags: ["Marine & shipyard", "Industrial", "Master plan", "Schematic design"],
+      facts: [
+        {
+          label: "Location",
+          value: "Port Tawfeek, Suez, Egypt",
+        },
+        {
+          label: "Client",
+          value: "Suez Canal",
+        },
+        {
+          label: "Stage",
+          value: "Schematic design",
+        },
+        {
+          label: "Land area",
+          value: "68,000 m²",
+        },
+        {
+          label: "Office",
+          value: "Le.Jardin",
+        },
+      ],
+      role: {
+        title: "Master plan 3D, landscape and the Administration Building",
+        text: "I contributed to the overall architectural development of the project, including the 3D modeling of all buildings across the master plan and the design of the surrounding landscape and site elements. My responsibilities also included the architectural design of the Administration Building, with detailed interior space planning and functional layout development. Additionally, I contributed to selected aspects of the visualization and rendering process.",
+        chips: ["Architectural design", "3D modelling", "Landscape & site", "Interior space planning", "Rendering"],
+      },
+      sections: [
+        {
+          eyebrow: "01 · The site",
+          title: "At the southern gate of the canal",
+          text: "The yard sits at Port Tawfeek, where the Suez Canal meets the Gulf of Suez. More than 20,000 ships pass it every year, so a yard that repairs them quickly matters for the whole canal.",
+          layout: "split",
+          shots: [
+            {
+              alt: "Site board: the shipyard location at Port Tawfeek on the Suez Canal with its surrounding context",
+              w: 1680,
+              h: 1071,
+              src: "/work/suez-shipyard/site.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "02 · Where it started",
+          title: "A busy yard working against its layout",
+          text: "Workshops, berths and storage had grown piece by piece. Work paths were scattered, cranes covered too little of the yard, and workers shared routes with heavy equipment.",
+          cards: [
+            {
+              title: "Operations",
+              body: "Disconnected work paths, limited crane coverage and slow material handling.",
+            },
+            {
+              title: "Facilities",
+              body: "Ageing workshops and too little waterfront for repairs.",
+            },
+            {
+              title: "Safety",
+              body: "No logistics zoning, so workers mix with heavy equipment.",
+            },
+          ],
+          shots: [
+            {
+              alt: "Existing site analysis with the current buildings, berths and problem areas marked",
+              w: 1680,
+              h: 1071,
+              wide: true,
+              src: "/work/suez-shipyard/existing.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "03 · The proposals",
+          title: "Seven moves to reorganise the yard",
+          lists: [
+            {
+              title: "Land & buildings",
+              items: [
+                {
+                  title: "More land",
+                  body: "New land used for the Administration Building and stores.",
+                },
+                {
+                  title: "Maintenance zone",
+                  body: "Expanded land for one integrated maintenance area.",
+                },
+                {
+                  title: "Demolish and rebuild",
+                  body: "Old buildings replaced with a new, organised layout.",
+                },
+                {
+                  title: "Connected workshops",
+                  body: "Workshops grouped into blocks that follow the production flow.",
+                },
+              ],
+            },
+            {
+              title: "Waterfront & movement",
+              items: [
+                {
+                  title: "Bigger ship-lift",
+                  body: "More and larger platforms for repairs.",
+                },
+                {
+                  title: "Keep the berths and dry dock",
+                  body: "Existing marine assets kept and made more efficient.",
+                },
+                {
+                  title: "Road hierarchy",
+                  body: "Main and secondary roads that separate traffic types.",
+                },
+              ],
+            },
+          ],
+          shots: [
+            {
+              alt: "Proposals board: the seven development moves drawn over the site plan",
+              w: 1680,
+              h: 1071,
+              wide: true,
+              src: "/work/suez-shipyard/proposals.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "04 · Zoning & production",
+          title: "One line from raw steel to the dock",
+          text: "Workshops are placed in the order the work happens: raw materials, machine cutting, hull fabrication, main assembly, then the dry-dock operating area. Carpentry moves to the Port Tawfeek yard to free space.",
+          chips: ["Raw materials", "Machine cutting", "Hull workshop", "Main assembly", "Dry dock"],
+          shots: [
+            {
+              alt: "Functional zoning plan of the shipyard",
+              w: 1680,
+              h: 1071,
+              caption: "Functional zoning",
+              src: "/work/suez-shipyard/zoning.webp",
+            },
+            {
+              alt: "Production flow diagram linking the workshops in sequence",
+              w: 1680,
+              h: 1071,
+              caption: "Production flow",
+              src: "/work/suez-shipyard/production.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "05 · Dry dock & ship-lift",
+          title: "Three times the repair capacity",
+          text: "The 150 × 30 m dry dock stays, serving 10,000–25,000 DWT ships, with a new 300-ton gantry crane and a 250 m² control unit. The ship-lift area grows from 11,000 to 33,600 m², and repair places go from 5 to 15, for ships up to 80 m.",
+          shots: [
+            {
+              alt: "Dry dock board with the new gantry crane and control unit",
+              w: 1680,
+              h: 1071,
+              caption: "Dry dock",
+              src: "/work/suez-shipyard/drydock.webp",
+            },
+            {
+              alt: "Ship-lift expansion board comparing the existing and proposed platforms",
+              w: 1680,
+              h: 1071,
+              caption: "Ship-lift expansion",
+              src: "/work/suez-shipyard/shiplift.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "06 · Circulation",
+          title: "Roads that keep people and cranes apart",
+          text: "A 15 m main road and 10 m secondary roads form a clear hierarchy. Turning radii of 6–7 m inside and 10 m outside let heavy trucks move without crossing work areas.",
+          layout: "split",
+          shots: [
+            {
+              alt: "Circulation plan with the main and secondary road network and turning radii",
+              w: 1680,
+              h: 1071,
+              src: "/work/suez-shipyard/circulation.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "07 · Administration Building",
+          title: "Every office in one building",
+          text: "My main design piece. The building brings all administrative and technical offices together, with a hotel wing for visiting experts, a restaurant and services. Public and operational circulation are kept apart: four gates (workers, vehicles, administration, garage) and a rear staff entrance straight to the hangars.",
+          lists: [
+            {
+              title: "Management & operations",
+              items: [
+                {
+                  title: "Executive management",
+                  body: "Yard director, senior management, executive lounge, boardroom, confidential meetings.",
+                },
+                {
+                  title: "Operations & engineering",
+                  body: "Operations control room, planning, PMO, marine, mechanical and electrical engineering, QA.",
+                },
+                {
+                  title: "Corporate services",
+                  body: "Finance, procurement, HR, legal, printing and archive.",
+                },
+                {
+                  title: "Clients & inspection",
+                  body: "Main reception, waiting, client meeting rooms, class-society inspection rooms, yard exhibition.",
+                },
+              ],
+            },
+            {
+              title: "Support",
+              items: [
+                {
+                  title: "IT",
+                  body: "IT offices, data centre and security monitoring.",
+                },
+                {
+                  title: "Meetings & training",
+                  body: "Main conference hall, meeting and presentation rooms.",
+                },
+                {
+                  title: "Security & access",
+                  body: "Security office, controlled entries, emergency and crisis room.",
+                },
+                {
+                  title: "Shared services",
+                  body: "Pantry, WCs, storage and vertical circulation.",
+                },
+              ],
+            },
+          ],
+          shots: [
+            {
+              alt: "Render of the Administration Building front facade",
+              w: 1680,
+              h: 942,
+              ratio: "21 / 9",
+              wide: true,
+              src: "/work/suez-shipyard/admin-front.webp",
+            },
+            {
+              alt: "Axonometric of the Administration Building showing its zones",
+              w: 1680,
+              h: 1071,
+              caption: "Zoning axonometric",
+              src: "/work/suez-shipyard/admin-axo.webp",
+            },
+            {
+              alt: "Administration Building floor plan with the interior zones",
+              w: 1680,
+              h: 1071,
+              caption: "Space planning",
+              src: "/work/suez-shipyard/admin-plan.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "08 · The building up close",
+          title: "Shade, palms and a clear way in",
+          shots: [
+            {
+              alt: "Side view render of the Administration Building",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/suez-shipyard/admin-side.webp",
+            },
+            {
+              alt: "Render of the building with palm-lined landscape",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/suez-shipyard/admin-palms.webp",
+            },
+            {
+              alt: "Render of the main entrance of the Administration Building",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/suez-shipyard/admin-entrance.webp",
+            },
+            {
+              alt: "Dusk render of the administration gate",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/suez-shipyard/admin-gate-dusk.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "09 · Gates & wayfinding",
+          title: "Finding your way in a 68,000 m² yard",
+          text: "A blue, green and grey signage system marks gates, zones and routes. A separate workers building gives rest areas, changing rooms and health services close to the workshops.",
+          layout: "split",
+          shots: [
+            {
+              alt: "Wayfinding and signage board with the colour palette",
+              w: 1680,
+              h: 1071,
+              src: "/work/suez-shipyard/wayfinding.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "10 · The proposal",
+          title: "The yard, from above",
+          shots: [
+            {
+              alt: "Aerial dusk render of the whole shipyard",
+              w: 1680,
+              h: 942,
+              wide: true,
+              src: "/work/suez-shipyard/aerial-dusk.webp",
+            },
+            {
+              alt: "Render of the connected workshop blocks",
+              w: 1680,
+              h: 942,
+              caption: "Workshop blocks",
+              ratio: "3 / 2",
+              src: "/work/suez-shipyard/workshops.webp",
+            },
+            {
+              alt: "Aerial render of ships on the ship-lift platforms beside the workshops",
+              w: 1680,
+              h: 942,
+              caption: "Ship-lift platforms",
+              ratio: "3 / 2",
+              src: "/work/suez-shipyard/aerial-city.webp",
+            },
+            {
+              alt: "Aerial render of the waterfront and ship-lift platforms",
+              w: 1680,
+              h: 942,
+              caption: "The waterfront",
+              ratio: "21 / 9",
+              wide: true,
+              src: "/work/suez-shipyard/aerial-waterfront.webp",
+            },
+          ],
+        },
+      ],
+      numbers: [
+        {
+          value: "68,000 m²",
+          label: "Total land area",
+        },
+        {
+          value: "3×",
+          label: "Ship-lift capacity (11,000 → 33,600 m²)",
+        },
+        {
+          value: "15",
+          label: "Repair places, up from 5",
+        },
+        {
+          value: "+135%",
+          label: "Internal operating efficiency",
+        },
+      ],
+    },
+  },
+  {
     slug: 'fish-market',
     cat: 'urban',
     type: 'Urban regeneration',
