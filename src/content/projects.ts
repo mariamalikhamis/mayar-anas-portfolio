@@ -1024,6 +1024,330 @@ export const projects: Project[] = [
     },
   },
   {
+    slug: "marineera-waterfront-retail",
+    cat: "com",
+    type: "Commercial",
+    tags: ["Sharm El Sheikh", "10,000 m²", "Le.Jardin"],
+    title: "Marineera Waterfront Retail",
+    desc: "Redesigning the shopping area of Marineera, a waterfront destination in Sharm El Sheikh: boutique shops, cafés and shaded walkways along the marina. I proposed architectural changes to improve function, spatial organisation and the shopping experience.",
+    cover: "/covers/marineera-waterfront-retail.webp",
+    coverAlt: "Aerial render of the Marineera retail area: timber pergolas over shops and walkways beside yachts in the marina",
+    coverSize: [
+      1680,
+      942,
+    ],
+    page: {
+      lead: "Turning a morning-only diving departure point in Sharm El Sheikh into an all-day waterfront destination, with boutique shops, cafés, shaded walkways and a working marina in one connected place.",
+      tags: ["Commercial", "Retail & F&B", "Waterfront", "Schematic design"],
+      facts: [
+        {
+          label: "Location",
+          value: "Sharm El Sheikh, South Sinai",
+        },
+        {
+          label: "Client",
+          value: "Mostaqbal Misr",
+        },
+        {
+          label: "Stage",
+          value: "Schematic design",
+        },
+        {
+          label: "Retail & public realm",
+          value: "10,000 m²",
+        },
+        {
+          label: "Office",
+          value: "Le.Jardin",
+        },
+      ],
+      role: {
+        title: "Redesign of the shopping area",
+        text: "I contributed to the development and redesign of the shopping area within the project, proposing architectural modifications and design improvements to enhance the functionality, spatial organization, and overall shopping experience.",
+        chips: ["Design development", "Architectural modifications", "Spatial organisation", "Retail experience"],
+      },
+      sections: [
+        {
+          eyebrow: "01 · The context",
+          title: "One piece of a 1,400-acre masterplan",
+          text: "Marineera is a large coastal masterplan at the southern entrance of South Sinai, mixing a waterfront, mountain zones, residential layers and an island resort. The retail area sits on the waterfront zone, beside a boutique hotel, the marina and a yacht shipyard.",
+          chips: ["Waterfront", "Mountain integration", "Layered zones", "Island"],
+          layout: "split",
+          shots: [
+            {
+              alt: "Masterplan zoning over the Sharm El Sheikh coastline and mountains",
+              w: 1680,
+              h: 1021,
+              src: "/work/marineera-waterfront-retail/zoning.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "02 · Where it started",
+          title: "Busy at 8 am, empty by noon",
+          text: "The site was a single-purpose morning node: a departure point for diving trips with a waiting area and little else. Large parts of the land were unused and the development was fragmented.",
+          cards: [
+            {
+              title: "Morning-only activity",
+              body: "Active for diving departures, then quiet for the rest of the day and night.",
+            },
+            {
+              title: "Few services",
+              body: "Very few shops, amenities or places to wait comfortably.",
+            },
+            {
+              title: "Poor parking & seating",
+              body: "Not enough capacity or organisation for visitors.",
+            },
+          ],
+          shots: [
+            {
+              alt: "Current situation board with the existing harbour and site photos",
+              w: 1680,
+              h: 1021,
+              caption: "The existing harbour",
+              src: "/work/marineera-waterfront-retail/current.webp",
+            },
+            {
+              alt: "Current and proposed function compared side by side",
+              w: 1680,
+              h: 1021,
+              caption: "Current vs. proposed",
+              src: "/work/marineera-waterfront-retail/current-proposed.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "03 · The retail zone",
+          title: "A continuous edge along the marina",
+          text: "The proposal restructures the site for both tourism and daily use: retail and boutique shops, diving and activity stores, restaurants and cafés, shaded outdoor spaces and organised parking, all linked to the marina.",
+          chips: ["Retail & boutique shops", "Diving & activity stores", "Restaurants & cafés", "Shaded outdoor spaces", "Organised parking"],
+          shots: [
+            {
+              alt: "Axonometric of the waterfront retail zone with its programme",
+              w: 1680,
+              h: 1021,
+              wide: true,
+              src: "/work/marineera-waterfront-retail/retail-zone.webp",
+            },
+            {
+              alt: "Site requirements: the retail and public realm, boutique hotel and marina with their dimensions",
+              w: 1680,
+              h: 1021,
+              caption: "Zone areas",
+              src: "/work/marineera-waterfront-retail/requirements.webp",
+            },
+            {
+              alt: "Exploded axonometric: roof and pergolas, first floor, circulation and ground floor",
+              w: 1680,
+              h: 1021,
+              caption: "How the levels stack",
+              src: "/work/marineera-waterfront-retail/exploded.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "04 · The building",
+          title: "Shops below, cafés above",
+          text: "The ground floor holds the retail shops around open courtyards and landscaped paths. The first floor carries cafés and restaurants with terraces facing the water, tied together by bridges and stairs under timber pergolas.",
+          cards: [
+            {
+              title: "Ground floor",
+              body: "26 retail shops, about 40 m² each.",
+            },
+            {
+              title: "First floor",
+              body: "9 cafés and restaurants, about 140 m² each.",
+            },
+            {
+              title: "Total built-up",
+              body: "3,165 m² of retail and F&B.",
+            },
+          ],
+          shots: [
+            {
+              alt: "Ground floor plan of the retail shops with courtyards and landscaped paths",
+              w: 1160,
+              h: 945,
+              caption: "Ground floor plan",
+              src: "/work/marineera-waterfront-retail/ground-floor.webp",
+            },
+            {
+              alt: "Project module: the two-level unit with shops on the ground floor and cafés above",
+              w: 1680,
+              h: 1021,
+              caption: "The retail module",
+              src: "/work/marineera-waterfront-retail/module.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "05 · Arrival & parking",
+          title: "Cars underground, people on the waterfront",
+          text: "A landmark gate marks the arrival and leads straight onto the main pedestrian axis. Most parking goes below ground, keeping cars apart from people and the landscape free.",
+          shots: [
+            {
+              alt: "Project gate board with arrival, digital entrance and the main pedestrian axis",
+              w: 1680,
+              h: 1021,
+              caption: "The gate",
+              src: "/work/marineera-waterfront-retail/gates.webp",
+            },
+            {
+              alt: "Parking board with surface and underground parking and the flow strategy",
+              w: 1680,
+              h: 1021,
+              caption: "Parking",
+              src: "/work/marineera-waterfront-retail/parking.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "06 · Supporting the experience",
+          title: "Shade, services and wayfinding",
+          text: "Shaded seating areas let visitors stay longer. Service routes and underground infrastructure are kept separate from visitor paths, and one signage system ties shops, activities and routes together.",
+          chips: ["Outdoor seating", "Separate service routes", "Underground infrastructure", "Signage & wayfinding"],
+          shots: [
+            {
+              alt: "Outdoor seating board with a shaded seating render and a sun-path section",
+              w: 1680,
+              h: 1021,
+              caption: "Outdoor seating",
+              src: "/work/marineera-waterfront-retail/seating.webp",
+            },
+            {
+              alt: "Services board with service routes and underground infrastructure",
+              w: 1680,
+              h: 1021,
+              caption: "Services",
+              src: "/work/marineera-waterfront-retail/services.webp",
+            },
+            {
+              alt: "Signage board with the wayfinding totem at the retail entrance",
+              w: 1680,
+              h: 1021,
+              caption: "Signage",
+              wide: true,
+              src: "/work/marineera-waterfront-retail/signage.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "07 · Interiors",
+          title: "Inside the shops",
+          text: "Arched niches, natural stone and warm clay tones carry the Sinai character from the facades into the units.",
+          shots: [
+            {
+              alt: "Gift shop interior with arched niches, pottery shelves and a stone display table",
+              w: 1176,
+              h: 888,
+              caption: "Gift shop",
+              ratio: "4 / 3",
+              src: "/work/marineera-waterfront-retail/gift-shop.webp",
+            },
+            {
+              alt: "Café interior with a timber counter and arched windows",
+              w: 1176,
+              h: 888,
+              caption: "Café",
+              ratio: "4 / 3",
+              src: "/work/marineera-waterfront-retail/cafe.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "08 · Walking the waterfront",
+          title: "Under the pergolas",
+          shots: [
+            {
+              alt: "Timber pergola over the retail walkway at sunset",
+              w: 1680,
+              h: 942,
+              ratio: "21 / 9",
+              wide: true,
+              src: "/work/marineera-waterfront-retail/pergola.webp",
+            },
+            {
+              alt: "Walkway under a pergola beside the marina",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/marineera-waterfront-retail/marina-walk.webp",
+            },
+            {
+              alt: "Shaded terrace looking out to the water",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/marineera-waterfront-retail/evening-walk.webp",
+            },
+            {
+              alt: "Pedestrian promenade between the shops",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/marineera-waterfront-retail/promenade.webp",
+            },
+            {
+              alt: "Shops and pergolas at sunset",
+              w: 1680,
+              h: 942,
+              ratio: "3 / 2",
+              src: "/work/marineera-waterfront-retail/sunset-shops.webp",
+            },
+            {
+              alt: "The retail entrance and signage totem at night",
+              w: 1680,
+              h: 942,
+              ratio: "21 / 9",
+              wide: true,
+              src: "/work/marineera-waterfront-retail/night-signage.webp",
+            },
+          ],
+        },
+        {
+          eyebrow: "09 · From the water",
+          title: "Retail, marina and mountains",
+          shots: [
+            {
+              alt: "Aerial render of the retail area and yacht berths",
+              w: 1680,
+              h: 942,
+              wide: true,
+              src: "/work/marineera-waterfront-retail/aerial-marina.webp",
+            },
+            {
+              alt: "The marina with the retail buildings and mountains behind",
+              w: 1680,
+              h: 942,
+              ratio: "21 / 9",
+              wide: true,
+              src: "/work/marineera-waterfront-retail/marina.webp",
+            },
+          ],
+        },
+      ],
+      numbers: [
+        {
+          value: "26",
+          label: "Retail shops",
+        },
+        {
+          value: "9",
+          label: "Cafés & restaurants",
+        },
+        {
+          value: "104",
+          label: "Parking spaces, 64 underground",
+        },
+        {
+          value: "10,000 m²",
+          label: "Retail & public realm",
+        },
+      ],
+    },
+  },
+  {
     slug: 'fish-market',
     cat: 'urban',
     type: 'Urban regeneration',
