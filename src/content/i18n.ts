@@ -1,0 +1,201 @@
+// ─────────────────────────────────────────────────────────────
+// SITE COPY — English and Arabic text for every section.
+// ─────────────────────────────────────────────────────────────
+
+export const locales = ['en', 'ar'] as const;
+export type Locale = (typeof locales)[number];
+export const isLocale = (v: string): v is Locale => (locales as readonly string[]).includes(v);
+
+export const links = {
+  whatsapp: 'https://wa.me/201229475005',
+  email: 'mariamali.kh183@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/mariam-ali-20xm/',
+  behance: 'https://www.behance.net/mariamali183',
+  cv: '/media/Mariam_Ali_Product_Designer_CV.pdf',
+};
+
+const en = {
+  meta: {
+    title: 'Mariam Ali — Product Designer',
+    description:
+      'Product designer for SaaS, e-commerce and dashboard products in Saudi Arabia and global markets. Arabic-first, bilingual RTL interfaces.',
+  },
+  name: 'Mariam Ali',
+  role: 'Product Designer',
+  photoAlt: 'Portrait of Mariam Ali',
+  langSwitch: 'عربي',
+  langAria: 'التبديل إلى العربية',
+  themeToDark: 'Switch to dark mode',
+  themeToLight: 'Switch to light mode',
+  navAria: 'Sections',
+  railOpen: 'Open page index',
+  railClose: 'Close index',
+  railTitle: 'On this page',
+  railExtra: { label: 'Education', href: '#education', after: '#experience' },
+  skipLink: 'Skip to content',
+  nav: [
+    { label: 'Work', href: '#works' },
+    { label: 'About', href: '#about' },
+    { label: 'Process', href: '#process' },
+    { label: 'Experience', href: '#experience' },
+    { label: 'Contact', href: '#contact' },
+  ],
+  headline: ['A curious mind,', 'grounded in strategy.'],
+  intro:
+    'I design SaaS, B2B, B2C products for Saudi and global markets, with interfaces built for the people using them today and the AI agents working alongside them tomorrow.',
+  ctaWhatsapp: 'Chat on WhatsApp',
+  ctaCv: 'Download CV',
+  viewCase: 'View case study',
+  linkLabels: { behance: 'View on Behance', salla: 'View on Salla', live: 'Visit website' },
+  proof: [
+    'Certified by Uxcel',
+    'Design systems & reusable components',
+    'User research & usability testing',
+    'Arabic-first, bilingual RTL interfaces',
+  ],
+  worksEyebrow: 'Selected work',
+  worksTitle: 'Products shaped around a real business question',
+  worksSub: 'Shipped products and concept work across Saudi, Egyptian and global markets.',
+  aboutEyebrow: 'About',
+  aboutTitle: 'I start with the system, then the screen',
+  about1:
+    'I have a B.Sc. in Production and Industrial Engineering, then joined ITI’s intensive UI/UX Design Track.',
+  about2:
+    'For the past three years I have designed merchant platforms, dashboards and conference sites for Saudi companies, and products for clients in Egypt, Germany and the US. I work closely with developers, product managers and stakeholders.',
+  quote:
+    '“Good design isn’t only about making things look better. It’s about making them work better, feel intuitive, and create real value for the people who use them.”',
+  expertiseTitle: 'What I bring',
+  expertise: [
+    { title: 'Product strategy', body: 'Turning business goals and requirements into clear product decisions.' },
+    { title: 'UX design', body: 'User flows, information architecture and interaction design.' },
+    { title: 'UI & design systems', body: 'Visual hierarchy, responsive layouts and components that scale.' },
+    { title: 'Bilingual & RTL', body: 'Arabic and English interfaces designed for both directions from day one.' },
+    { title: 'AI in design', body: 'Using AI tools to research, prototype and ship faster.' },
+  ],
+  processEyebrow: 'Process',
+  processTitle: 'How I work',
+  process: [
+    { n: '01', title: 'Understand', body: 'Users, business goals and constraints — before any pixels.' },
+    { n: '02', title: 'Define', body: 'Flows and structure that make the complex feel simple.' },
+    { n: '03', title: 'Design', body: 'Interfaces and components built on one consistent system.' },
+    { n: '04', title: 'Validate', body: 'Usability tests and stakeholder reviews before anything ships.' },
+  ],
+  eduEyebrow: 'Education',
+  eduTitle: 'From engineering to product design',
+  expHeading: 'Experience',
+  eduHeading: 'Education & training',
+  nowTag: 'Now',
+  inProgress: 'In progress',
+  edu: [
+    { when: '2026', title: 'Product Management Masterclass', org: 'DPC Transformation & Products Consulting', note: '', now: true },
+    { when: '2026', title: 'Product Designer Certification', org: 'Uxcel', note: '', now: false },
+    { when: '2024 — 2025', title: 'UI/UX Design Track', org: 'Information Technology Institute (ITI)', note: '', now: false },
+    { when: '2022', title: 'UI/UX Design Program | Udacity nanodegree in advanced user experience', org: 'egFWD · Ministry of Communications and IT', note: '', now: false },
+    { when: '2018 — 2023', title: 'B.Sc. Production and Industrial Engineering', org: 'Alexandria University', note: '', now: false },
+  ],
+  expEyebrow: 'Experience',
+  expTitle: 'Where I’ve worked',
+  exp: [
+    { when: 'Since 2026', org: 'Freelance', role: 'Product Designer', body: 'SaaS, real estate, travel and ERP products for clients in Egypt, Germany and the US.', tags: ['SaaS', 'Real estate', 'Travel', 'ERP'], now: true },
+    { when: '2025 — 2026', org: 'Al-Raedah for Digital Transformation | Ghadan', href: 'https://www.linkedin.com/company/professionalp/', role: 'UI/UX Designer', body: 'An e-commerce platform and merchant dashboard, the IAVE conference website, and UX audits of existing products.', tags: ['E-commerce', 'Dashboards', 'Events', 'UX audits'], now: false },
+    { when: '2024 — 2025', org: 'Suoodq | صعودك', href: 'https://www.linkedin.com/company/107052220/', role: 'UI/UX Designer', body: 'A Salla theme, merchant dashboards, and upsell and cross-sell widgets for Salla stores.', tags: ['Salla', 'SaaS', 'Widgets'], now: false },
+  ],
+  contactTitle: 'Have a project in mind, or looking for a design collaborator? Let’s build something meaningful together.',
+  footer: '© 2026 Mariam Ali',
+  backTop: 'Back to top',
+};
+
+type Dict = typeof en;
+
+const ar: Dict = {
+  meta: {
+    title: 'مريم علي — مصممة منتجات',
+    description: 'مصممة منتجات لمنصات SaaS والتجارة الإلكترونية ولوحات التحكم في السعودية والأسواق العالمية. واجهات عربية أولاً وثنائية اللغة.',
+  },
+  name: 'مريم علي',
+  role: 'مصممة منتجات',
+  photoAlt: 'صورة مريم علي',
+  langSwitch: 'EN',
+  langAria: 'Switch to English',
+  themeToDark: 'التبديل إلى الوضع الداكن',
+  themeToLight: 'التبديل إلى الوضع الفاتح',
+  navAria: 'الأقسام',
+  railOpen: 'فتح فهرس الصفحة',
+  railClose: 'إغلاق الفهرس',
+  railTitle: 'في هذه الصفحة',
+  railExtra: { label: 'التعليم', href: '#education', after: '#experience' },
+  skipLink: 'انتقل إلى المحتوى',
+  nav: [
+    { label: 'الأعمال', href: '#works' },
+    { label: 'نبذة', href: '#about' },
+    { label: 'المنهجية', href: '#process' },
+    { label: 'الخبرات', href: '#experience' },
+    { label: 'تواصل', href: '#contact' },
+  ],
+  headline: ['عقلٌ فضولي،', 'يرتكز على الاستراتيجية.'],
+  intro:
+    'أصمم منتجات SaaS وB2B وB2C للسوق السعودي والأسواق العالمية، بواجهات تخدم من يستخدمها اليوم، ووكلاء الذكاء الاصطناعي الذين سيعملون إلى جانبهم غداً.',
+  ctaWhatsapp: 'تواصل عبر واتساب',
+  ctaCv: 'تحميل السيرة الذاتية',
+  viewCase: 'عرض دراسة الحالة',
+  linkLabels: { behance: 'عرض على Behance', salla: 'عرض على سلة', live: 'زيارة الموقع' },
+  proof: [
+    'معتمدة من Uxcel',
+    'أنظمة تصميم ومكونات قابلة لإعادة الاستخدام',
+    'أبحاث المستخدم واختبارات قابلية الاستخدام',
+    'واجهات عربية أولاً وثنائية اللغة (RTL)',
+  ],
+  worksEyebrow: 'أعمال مختارة',
+  worksTitle: 'منتجات صُممت حول تحدٍّ حقيقي في الأعمال',
+  worksSub: 'منتجات منفّذة ومشاريع تصميمية للسوق السعودي والمصري والأسواق العالمية.',
+  aboutEyebrow: 'نبذة',
+  aboutTitle: 'أبدأ بالنظام، ثم بالشاشة',
+  about1:
+    'حاصلة على بكالوريوس هندسة الإنتاج والهندسة الصناعية، ثم التحقتُ بمسار تصميم UI/UX المكثف في معهد تكنولوجيا المعلومات (ITI).',
+  about2:
+    'خلال السنوات الثلاث الماضية صممت منصات للتجار ولوحات تحكم ومواقع مؤتمرات لشركات سعودية، ومنتجات لعملاء في مصر وألمانيا والولايات المتحدة. أعمل عن قرب مع المطورين ومديري المنتجات وأصحاب المصلحة.',
+  quote:
+    '«التصميم الجيد لا يعني أن يبدو المنتج أجمل فقط، بل أن يعمل بشكل أفضل، ويكون سهل الاستخدام، ويصنع قيمة حقيقية لمن يستخدمه.»',
+  expertiseTitle: 'ما أقدمه',
+  expertise: [
+    { title: 'استراتيجية المنتج', body: 'تحويل أهداف الأعمال والمتطلبات إلى قرارات منتج واضحة.' },
+    { title: 'تصميم تجربة المستخدم', body: 'مسارات المستخدم، وهيكلة المعلومات، وتصميم التفاعل.' },
+    { title: 'الواجهات وأنظمة التصميم', body: 'تسلسل بصري واضح، وتصاميم متجاوبة، ومكونات قابلة للتوسع.' },
+    { title: 'واجهات ثنائية اللغة', body: 'واجهات عربية وإنجليزية مصممة للاتجاهين من اليوم الأول.' },
+    { title: 'الذكاء الاصطناعي في التصميم', body: 'أدوات ذكاء اصطناعي للبحث والنمذجة والتسليم بشكل أسرع.' },
+  ],
+  processEyebrow: 'المنهجية',
+  processTitle: 'كيف أعمل',
+  process: [
+    { n: '01', title: 'الفهم', body: 'المستخدمون وأهداف الأعمال والقيود، قبل أي تصميم.' },
+    { n: '02', title: 'التحديد', body: 'مسارات وهيكلة تجعل المعقّد بسيطاً.' },
+    { n: '03', title: 'التصميم', body: 'واجهات ومكونات مبنية على نظام واحد متسق.' },
+    { n: '04', title: 'التحقق', body: 'اختبارات قابلية الاستخدام ومراجعات أصحاب المصلحة قبل الإطلاق.' },
+  ],
+  eduEyebrow: 'التعليم',
+  eduTitle: 'من الهندسة إلى تصميم المنتجات',
+  expHeading: 'الخبرات',
+  eduHeading: 'التعليم والتدريب',
+  nowTag: 'الآن',
+  inProgress: 'قيد الدراسة',
+  edu: [
+    { when: '2026', title: 'Product Management Masterclass', org: 'DPC Transformation & Products Consulting', note: '', now: true },
+    { when: '2026', title: 'شهادة Product Designer', org: 'Uxcel', note: '', now: false },
+    { when: '2024 — 2025', title: 'مسار تصميم UI/UX', org: 'معهد تكنولوجيا المعلومات (ITI)', note: '', now: false },
+    { when: '2022', title: 'برنامج تصميم UI/UX | نانوديجري تجربة المستخدم المتقدمة من Udacity', org: 'مبادرة egFWD · وزارة الاتصالات وتكنولوجيا المعلومات', note: '', now: false },
+    { when: '2018 — 2023', title: 'بكالوريوس هندسة الإنتاج والهندسة الصناعية', org: 'جامعة الإسكندرية', note: '', now: false },
+  ],
+  expEyebrow: 'الخبرات',
+  expTitle: 'أين عملت',
+  exp: [
+    { when: 'منذ 2026', org: 'عمل حر', role: 'مصممة منتجات', body: 'منتجات SaaS وعقارات وسفر وأنظمة ERP لعملاء في مصر وألمانيا والولايات المتحدة.', tags: ['SaaS', 'عقارات', 'سفر', 'ERP'], now: true },
+    { when: '2025 — 2026', org: 'Al-Raedah for Digital Transformation | Ghadan', href: 'https://www.linkedin.com/company/professionalp/', role: 'مصممة UI/UX', body: 'منصة تجارة إلكترونية ولوحة تحكم للتجار، وموقع مؤتمر IAVE، وتدقيق تجربة المستخدم لمنتجات قائمة.', tags: ['تجارة إلكترونية', 'لوحات تحكم', 'فعاليات', 'تدقيق UX'], now: false },
+    { when: '2024 — 2025', org: 'Suoodq | صعودك', href: 'https://www.linkedin.com/company/107052220/', role: 'مصممة UI/UX', body: 'ثيم لمنصة سلة، ولوحات تحكم للتجار، وأدوات بيع إضافي وتقاطعي لمتاجر سلة.', tags: ['سلة', 'SaaS', 'أدوات بيع'], now: false },
+  ],
+  contactTitle: 'لديك مشروع، أو تبحث عن مصمم يشاركك العمل؟ لنصنع معاً شيئاً ذا قيمة.',
+  footer: '© 2026 مريم علي',
+  backTop: 'العودة للأعلى',
+};
+
+export const dictionaries: Record<Locale, Dict> = { en, ar };
+export type { Dict };
