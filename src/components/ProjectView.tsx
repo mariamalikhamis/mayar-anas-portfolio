@@ -43,7 +43,7 @@ export default function ProjectView({ project, next }: { project: Project; next?
 
       {/* Role */}
       {p.role ? (
-        <section className="pv-role" data-reveal>
+        <section id="role" className="pv-role" data-reveal>
           <div className="pv-role-head">
             <span className="eyebrow">My role</span>
             <span className="pv-role-title">{p.role.title}</span>
@@ -62,7 +62,7 @@ export default function ProjectView({ project, next }: { project: Project; next?
       ) : null}
 
       {/* Sections */}
-      {p.sections.map((s) => {
+      {p.sections.map((s, idx) => {
         const head = (
           <header className="section-head pv-head">
             <span className="eyebrow">{s.eyebrow}</span>
@@ -87,7 +87,7 @@ export default function ProjectView({ project, next }: { project: Project; next?
           </div>
         ) : null;
         return (
-          <section key={s.eyebrow} className={s.layout === 'split' ? 'pv-section is-split' : 'pv-section'} data-reveal>
+          <section key={s.eyebrow} id={`sec-${idx + 1}`} className={s.layout === 'split' ? 'pv-section is-split' : 'pv-section'} data-reveal>
             {head}
             {shots}
             {s.cards ? (

@@ -5,6 +5,7 @@ import { site } from '@/content/site';
 import ProjectView from '@/components/ProjectView';
 import ThemeToggle from '@/components/ThemeToggle';
 import Reveal from '@/components/Reveal';
+import PageRail from '@/components/PageRail';
 
 export function generateStaticParams() {
   return pagedProjects.map((p) => ({ slug: p.slug }));
@@ -42,6 +43,21 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
       </header>
       <ProjectView project={project} next={next} />
       <Reveal />
+      <PageRail
+        items={[
+          ...(project.page.role ? [{ label: 'My role', href: '#role' }] : []),
+          ...project.page.sections.map((s, idx) => ({ label: s.eyebrow.split('·').pop()!.trim(), href: `#sec-${idx + 1}` })),
+        ]}
+        labels={{ aria: site.navAria, open: site.railOpen, close: site.railClose, title: site.railTitle }}
+        footer={
+          <>
+            <a className="pill-btn" href="/#works">
+              {site.allWork}
+            </a>
+            <ThemeToggle toDark={site.themeToDark} toLight={site.themeToLight} />
+          </>
+        }
+      />
     </>
   );
 }
