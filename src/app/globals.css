@@ -1176,3 +1176,11 @@ html:not([dir='rtl']) .tl-title { font-size: 20px; }
 .pv-fig.is-wide { flex-basis: 100%; }
 .pv-section.is-split .pv-fig { flex-basis: 100%; }
 @media (max-width: 699px) { .pv-fig, .work-item { flex-basis: 100%; } }
+
+/* ── Desktop scale: the layout is tuned to read best at 90% ───────────────── */
+@media (min-width: 1024px) {
+  html { zoom: 0.9; }
+  /* viewport units are zoomed too, so scale them back up to fill the screen */
+  .sidebar { height: calc(100dvh / 0.9); }
+  .shell { min-height: calc(100dvh / 0.9); }
+}
