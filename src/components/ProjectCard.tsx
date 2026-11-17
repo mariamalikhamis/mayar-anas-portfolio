@@ -1,11 +1,11 @@
-import type { Project } from '@/content/projects';
+import { img, type Project } from '@/content/projects';
 
 export default function ProjectCard({ project, eager, ctaLabel }: { project: Project; eager?: boolean; ctaLabel: string }) {
   const href = project.page ? `/work/${project.slug}` : undefined;
   const inner = (
     <>
       <div className="card-media" style={{ aspectRatio: `${project.coverSize[0]} / ${project.coverSize[1]}` }}>
-        <img src={project.cover} alt={project.coverAlt} width={project.coverSize[0]} height={project.coverSize[1]} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+        <img src={img(project.cover)} alt={project.coverAlt} width={project.coverSize[0]} height={project.coverSize[1]} loading={eager ? 'eager' : 'lazy'} decoding="async" />
       </div>
       <div className="card-body">
         <div className="tags">

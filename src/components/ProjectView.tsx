@@ -1,5 +1,5 @@
 import type React from 'react';
-import type { Project, Shot } from '@/content/projects';
+import { img, type Project, type Shot } from '@/content/projects';
 import { site } from '@/content/site';
 
 function Figure({ s }: { s: Shot }) {
@@ -8,7 +8,7 @@ function Figure({ s }: { s: Shot }) {
   const r = s.w / s.h;
   return (
     <figure className={s.wide ? 'pv-fig is-wide' : 'pv-fig'} style={{ ['--r' as string]: r.toFixed(4) } as React.CSSProperties}>
-      <img src={s.src} alt={s.alt} width={s.w} height={s.h} loading="lazy" decoding="async" />
+      <img src={img(s.src)} alt={s.alt} width={s.w} height={s.h} loading="lazy" decoding="async" />
       {s.caption ? <figcaption>{s.caption}</figcaption> : null}
     </figure>
   );
@@ -38,7 +38,7 @@ export default function ProjectView({ project, next }: { project: Project; next?
             </div>
           ))}
         </dl>
-        <img className="pv-cover" src={project.cover} alt={project.coverAlt} width={project.coverSize[0]} height={project.coverSize[1]} />
+        <img className="pv-cover" src={img(project.cover)} alt={project.coverAlt} width={project.coverSize[0]} height={project.coverSize[1]} />
       </section>
 
       {/* Role */}

@@ -1382,6 +1382,10 @@ export const projects: Project[] = [
   },
 ];
 
+/** Bump when image files are replaced, so browsers and the CDN fetch the new versions. */
+export const ASSET_V = '20261117b';
+export const img = (src: string) => `${src}?v=${ASSET_V}`;
+
 export const getProject = (slug: string) => projects.find((p) => p.slug === slug);
 /** Projects that have their own page, in home-page order */
 export const pagedProjects = projects.filter((p) => p.page);
