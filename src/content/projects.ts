@@ -75,7 +75,7 @@ export const projects: Project[] = [
     desc: 'Reviving a historic port district around textile and fashion industry, with a new waterfront.',
     cover: '/covers/minet.webp',
     coverAlt: 'Render of a public plaza in front of restored red-brick warehouses in Minet El Basal',
-    coverSize: [1867, 998],
+    coverSize: [1863, 995],
     page: {
       lead: 'Revitalizing the historic district of Minet El Basal in Alexandria’s Western Harbour around textile and fashion industry, with a new waterfront for the city.',
       tags: ['Urban regeneration', 'Waterfront design', 'Heritage', 'Textile & fashion industry'],
